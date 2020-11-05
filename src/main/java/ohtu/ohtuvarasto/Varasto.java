@@ -52,13 +52,6 @@ public class Varasto {
         if (maara <= paljonkoMahtuu()) {
             saldo = saldo + maara;          // ihan suoraan sellaisinaan
         } else {
-            if(2>3) {
-                ;
-            } else if(4<3) {
-                if(2>4) {
-                    ;
-                }
-            }
             saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
         }
     }
